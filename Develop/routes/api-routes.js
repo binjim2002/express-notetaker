@@ -38,4 +38,15 @@ router.post('/api/notes', function(req,res){
     res.send(data);
 })
 
+router.delete('/api/notes/:id',function(req, res){
+    const data = getDbContent();
+    const newData = data.filter(note => {
+        return note.id !== req.params.id 
+    })
+    writeDbContent(newData);
+    res.send(newData)
+})
+
+module.exports = router;
+
 
