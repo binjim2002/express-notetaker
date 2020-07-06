@@ -22,3 +22,26 @@ const writeDbContent = function(data){
 
 }
 
+router.get('/api/notes', function(req,res){
+    res.send(getDbContent());
+})
+
+router.post('/api/notes', function(req,res){
+    const data = getDbContent();
+    // add posted object to data
+    req.body.id = Math.random().toString(36).substring(2,9)
+    data.push(req.body)
+    // write to db json
+    writeDbContent(data);
+    //  return complete data
+    res.send(data);
+})
+
+router.delete('/api/notes/:id',function(req,res){
+    const data = getDbContent();
+    const newData = data.filter(note => {
+        return note.id !== req.params.id
+    
+    const data = data.filter(note =>{
+    })
+    
