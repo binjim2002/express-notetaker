@@ -11,3 +11,14 @@ const getDbContent = function() {
    return JSON.parse(db);
  
 }
+
+const writeDbContent = function(data){
+    fs.writeFile(dbPath(),JSON.stringify(data), err=> {
+        if(err){
+            console.log('There was an issue');
+        
+        }
+    });
+
+}
+
