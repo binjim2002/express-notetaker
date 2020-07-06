@@ -13,7 +13,7 @@ and  finally press and hold the CTRL key and clicking on http://localhost:3000.
 Usage
 Using the NOTETAKER app is easy and simple. As soon as you open the app, you'll be propmt to the welcome page with a get starte button. Once you click on Get Started, the you will be taken to the plage where you can take, edit, delete or save your notes.
 
-To access NOTETAKER [CLICK HERE] https://drive.google.com/file/d/1Bmpg1UDNRMb3ncYopIj9qFxrwED8pQO_/view
+To access NOTETAKER [CLICK HERE] https://github.com/binjim2002/express-notetaker
 
 My heroku repo is: https://github.com/binjim2002/gt-team-profile-generator
 
