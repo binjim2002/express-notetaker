@@ -42,6 +42,11 @@ router.delete('/api/notes/:id',function(req,res){
     const newData = data.filter(note => {
         return note.id !== req.params.id
     
-    const data = data.filter(note =>{
+    
     })
+    writeDbContent(newData);
+    res.send(newData)
+})
+
+module.exports = router;
     
