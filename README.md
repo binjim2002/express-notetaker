@@ -15,7 +15,7 @@ Using the NOTETAKER app is easy and simple. As soon as you open the app, you'll 
 
 To access NOTETAKER [CLICK HERE] https://github.com/binjim2002/express-notetaker
 
-My heroku repo is: https://github.com/binjim2002/gt-team-profile-generator
+My heroku repo is: https://blooming-meadow-23336.herokuapp.com/
 
 Credits
 This app was designed and built by Jimmy B. Kazadi
