@@ -6,7 +6,7 @@ const createPath = function(name){
 }
 
 router.get('/', function(req,res){
-    res.sendFile(createPath(index));
+    res.sendFile(createPath('index'));
 })
 
 router.get('/notes', function(req,res){
